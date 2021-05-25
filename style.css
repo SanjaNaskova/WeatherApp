@@ -1,0 +1,105 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: #31383b;
+}
+
+header{
+    background-image: url(images/header2.jpg);
+    width: 100%;
+    height: 210px;
+    background-size: cover;
+    color: #31383b;
+    padding: 11px;
+    display: flex;
+    flex-direction: column;
+}
+
+.locationContainer{
+     height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 22px;
+}
+
+p{
+    margin: 0;
+    font-size: 18px;
+}
+
+.search{
+    /* background-color: #fcffde; */
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    color: #31383b;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+input{
+    width: 254px;
+    height: 43px;
+    border: none;
+    cursor: pointer;
+    color: inherit;
+    padding: 0;
+    outline: inherit;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+label{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+button{
+    width: 200px;
+    height: 43px; 
+    cursor: pointer;
+    background: #ffff;
+    font-size: 17px;
+     border-radius: 19px;
+    border: 1px solid #31383b;
+}
+
+.btnSearch{
+    border-bottom: 1px solid black;
+}
+
+.load{
+    display: none;
+    text-align: center;
+}
+
+.weatherCard{
+    opacity: 0;
+    transition: opacity 1s;
+    height: 300px;
+    width: 390px;
+    border: 1px solid black;
+    border-radius: 13px;
+    text-align: center;
+    margin: 35px auto;
+    padding-top: 8px;
+    box-shadow: 5px 5px 18px 0px #616467;
+}
+
+.weatherCard > p{
+    line-height: 34px;
+}
+
+
+.btnDailyWeather{
+    opacity: 0;
+    transition: opacity 1s;
+    transform: translateY(-98px);
+   
+}
+
+.dailyWeatherDiv{
+     text-align: center;
+}
